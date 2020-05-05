@@ -10,10 +10,7 @@ resource "azurerm_storage_account" "this" {
   account_tier              = var.account_tier
   account_replication_type  = var.account_replication_type
   access_tier               = var.access_tier
-  enable_blob_encryption    = var.blob_encryption
-  enable_file_encryption    = var.file_encryption
   enable_https_traffic_only = var.https_traffic
-  account_encryption_source = var.account_encryption_source
 
   tags = var.tags
 }
