@@ -44,28 +44,10 @@ variable "access_tier" {
   default     = "hot"
 }
 
-variable "blob_encryption" {
-  description = "Boolean flag which controls if Encryption Services are enabled for Blob storage."
-  type        = string
-  default     = true
-}
-
-variable "file_encryption" {
-  description = "Boolean flag which controls if Encryption Services are enabled for File storage."
-  type        = string
-  default     = true
-}
-
 variable "https_traffic" {
   description = "Boolean flag which forces HTTPS if enabled"
   type        = string
   default     = true
-}
-
-variable "account_encryption_source" {
-  description = "The Encryption Source for this Storage Account. Possible values are Microsoft.Keyvault and Microsoft.Storage. Defaults to Microsoft.Storage."
-  type        = string
-  default     = "Microsoft.Storage"
 }
 
 variable "containers" {
