@@ -4,14 +4,13 @@ Terraform module which creates azure storage account with the ability to manage 
 - Lifecyle rules
 - Network and firewall rules
 - Cross-origin resource sharing
--
 
 
 This module is tested with:
 - Azure Provider 2.13.0
 - Terrafrom v0.12.23
 
-It create the following resources:
+It can create the following resources:
 - azurerm_storage_account
 - azurerm_storage_management_policy
 - azurerm_storage_container
