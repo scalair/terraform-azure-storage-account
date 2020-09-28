@@ -42,6 +42,7 @@ variable "access_tier" {
   description = "Defines the access tier for BlobStorage accounts. Valid options are Hot and Cold, defaults to Hot."
   type        = string
   default     = "hot"
+}
 
 variable "https_traffic" {
   description = "Boolean flag which forces HTTPS if enabled"
