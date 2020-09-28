@@ -1,8 +1,3 @@
-provider "azurerm" {
-  # whilst the `version` attribute is optional, we recommend pinning to a given version of the Provider
-  version = "=2.13.0"
-  features {}
-}
 data "azurerm_resource_group" "this" {
   name = var.resource_group_name
 }
