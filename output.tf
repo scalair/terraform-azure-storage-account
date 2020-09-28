@@ -20,10 +20,6 @@ output storage_account_replication_type {
   value = azurerm_storage_account.this.account_replication_type
 }
 
-#output storage_account_encryption_source {
-#  value = azurerm_storage_account.this.account_encryption_source
-#}
-
 output storage_account_primary_location {
   value = azurerm_storage_account.this.primary_location
 }
