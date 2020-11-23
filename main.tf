@@ -12,6 +12,7 @@ resource "azurerm_storage_account" "this" {
   access_tier               = var.access_tier
   enable_https_traffic_only = var.https_traffic
   is_hns_enabled            = var.is_hns_enabled
+  allow_blob_public_access  = var.allow_blob_public_access
 
   tags = var.tags
 

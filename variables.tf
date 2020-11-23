@@ -127,3 +127,9 @@ variable "add_lifecycle_rules" {
 description = "to add lifcecycle rules"
   type        = bool
 }
+
+variable "allow_blob_public_access" {
+  type        = bool
+  description = "Allow or disallow public access to all blobs or containers in the storage account."
+  default     = false
+}

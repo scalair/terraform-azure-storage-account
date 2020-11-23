@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.1 - 2020-11-23
+
+### Added
+
+- added `allow_blob_public_access` property that allows or disallows public access to all blobs or containers in the storage account.
+
 ## v2.1.0 - 2020-09-28
 
 ### Updated
