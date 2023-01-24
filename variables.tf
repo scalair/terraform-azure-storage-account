@@ -128,7 +128,7 @@ description = "to add lifcecycle rules"
   type        = bool
 }
 
-variable "allow_blob_public_access" {
+variable "allow_nested_items_to_be_public" {
   type        = bool
   description = "Allow or disallow public access to all blobs or containers in the storage account."
   default     = false
